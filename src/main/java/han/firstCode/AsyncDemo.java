@@ -17,14 +17,19 @@ package han.firstCode;
  */
 public class AsyncDemo {
 
+	@SuppressWarnings("unused")
 	private static String outString = "asyncBegin";
+	public String privateString = "222";
 	/**
 	 *
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		AsyncDemo han = new AsyncDemo();
+		han.privateString = "999";
+		
 		// TODO Auto-generated method stub
-		System.out.println(outString);
+		System.out.println(han.privateString);
 	}
 
 }
