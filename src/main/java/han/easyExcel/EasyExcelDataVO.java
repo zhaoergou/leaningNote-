@@ -35,4 +35,6 @@ public class EasyExcelDataVO {
 	private Integer sjzk;
 	private Integer sjfk;
 	private String bz;
+
+
 }

@@ -112,6 +112,16 @@ public class DemoMain {
 			System.out.println(a+"  catch!!  "+e);
 		}
 	}
+	@Test
+	public void testttt() {
+
+		DemoDto dd = new DemoDto();
+		System.out.println(dd.hashCode());
+		DemoDto dd2 = new DemoDto();
+		System.out.println(dd2.hashCode());
+		
+		
+	}
 //	/**
 //	 *
 //	 * @param args

@@ -39,11 +39,11 @@ class ReplaceDemo{
 //		BigDecimal paid3 = new BigDecimal("2");
 //		BigDecimal pable3 = new BigDecimal("4");
 //		System.out.println(paid3.compareTo(pable3));
-		BigDecimal paid4 = new BigDecimal("0.0");
+		BigDecimal paid4 = new BigDecimal("23.000");
+		BigDecimal paid5 = new BigDecimal(23.000);
+		System.out.println(paid4.hashCode());
+		System.out.println(paid5.hashCode());
 		Double pable4 = new Double(0.00);
-		System.out.println(paid4);
-		System.out.println(pable4);
-		System.out.println(paid4.doubleValue()==pable4);
 		
 	}
 			
